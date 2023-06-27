@@ -1,0 +1,51 @@
+.section_container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.crousel_background_image {
+  font-family: "ITC Avant Garde" !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #ffffff;
+  width: 100%;
+  margin: 0%;
+}
+.crousel_section_container {
+  width: 85%;
+  background: #88b5e7;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+.btn_section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section_submit_btn {
+  width: auto;
+  padding: 0.7rem 3rem;
+  /* height: 2rem; */
+  /* background: #3b85d7; */
+  background: #eec032;
+  border-radius: 6px;
+  border: none;
+  margin-top: 1rem;
+  outline: none;
+  color: #ffffff;
+  font-family: "ITC Avant Garde" !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  cursor: pointer;
+}

@@ -1,0 +1,64 @@
+.our_service_container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2%;
+}
+.small_cards {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  margin-top: 1.7rem;
+}
+.service_card {
+  padding: 1.5rem;
+  height: 220px;
+  width: 220px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(180deg, #ffffff 0%, #cadef5 100%);
+  box-shadow: 0px 0px 20px rgba(59, 133, 215, 0.35);
+  border-radius: 20px;
+}
+.service_card p {
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: capitalize;
+  color: rgba(20, 35, 53, 0.8);
+}
+@media only screen and (max-width: 1028px) {
+  .small_cards {
+    flex-wrap: wrap;
+    align-items: center;
+    row-gap: 1.5rem;
+  }
+}
+@media only screen and (max-width: 580px) {
+  .small_cards {
+    display: grid;
+    grid-template-columns: 48% 48%;
+    justify-content: space-between;
+    align-items: center;
+    row-gap: 1.5rem;
+  }
+  .service_card {
+    width: 150px;
+    height: 150px;
+    align-items: center;
+  }
+  .service_card img {
+    width: 40px;
+    height: 40px;
+  }
+  .service_card p {
+    font-size: 11px;
+    line-height: 20px;
+  }
+}

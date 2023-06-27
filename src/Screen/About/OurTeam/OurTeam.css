@@ -1,0 +1,122 @@
+.our_team_container {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.our_team_container h1 {
+  font-family: "ITC Avant Garde" !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 42px;
+  text-transform: capitalize;
+  text-align: center;
+  width: 100%;
+  color: #333333;
+  margin: 0%;
+}
+.our_team_main_container {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.left_container_our_team {
+  width: 30%;
+}
+.right_container_our_team {
+  width: 70%;
+}
+.accordion_team {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 2% 0%;
+}
+.item_team {
+  width: 90%;
+  background: #e6f1fd;
+  box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.12);
+  border-radius: 10px;
+}
+.title_team {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  background: #3b85d7;
+  box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.12);
+  border-radius: 10px 10px 0px 0px;
+  padding: 0.5rem 0.5rem;
+}
+.core_team_heading {
+  font-family: "Red Hat Display" sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  text-transform: capitalize;
+  color: #ffffff;
+  margin: 0%;
+}
+.content_show_team {
+  height: auto;
+  max-height: 9999px;
+  border-radius: 8px;
+  font-family: "ITC Avant Garde" !important;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  text-transform: capitalize;
+  color: #000000;
+  padding: 0.5rem 0.5rem;
+}
+@media only screen and (max-width: 1028px) {
+  .our_team_container {
+    height: auto;
+    margin-top: 2rem;
+    align-items: center;
+  }
+  .our_team_main_container {
+    width: 100%;
+  }
+  .left_container_our_team {
+    width: 35%;
+  }
+  .right_container_our_team {
+    width: 65%;
+  }
+  .right_container_our_team img {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  .our_team_container {
+    height: auto;
+    margin-top: 2rem;
+  }
+  .our_team_main_container {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+  .left_container_our_team {
+    width: 75%;
+  }
+  .right_container_our_team {
+    width: 100%;
+    padding: 1.5rem;
+  }
+  .right_container_our_team img {
+    width: 100%;
+  }
+}

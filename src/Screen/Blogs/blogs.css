@@ -1,0 +1,206 @@
+.blogs_container {
+  width: 100%;
+  height: auto;
+  margin: 5% 0%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.blogs_card_container {
+  width: 90%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  justify-content: space-evenly;
+  row-gap: 1.8rem;
+}
+.blog_card_container {
+  width: 100%;
+  background: #ffffff;
+  box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 17px;
+}
+.img_section_blog {
+  width: 100%;
+}
+.img_section_blog img {
+  width: 100%;
+  border-radius: 17px 17px 0px 0px;
+}
+.blog_contetnt_section {
+  width: 100%;
+  padding: 1rem;
+}
+.blog_tag {
+  width: fit-content;
+  background-size: cover;
+  padding: 1.7% 5%;
+  font-family: "ITC Avant Garde" !important;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #17c762;
+  background: #c7ffe0;
+  border-radius: 20px;
+}
+.describe_blog {
+  font-family: "ITC Avant Garde" !important;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  text-transform: capitalize;
+  color: #6a6a6a;
+}
+.describe_blog span {
+  font-family: "ITC Avant Garde" !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #3b85d7;
+}
+.blog_user_section {
+  width: 100%;
+  display: flex;
+  padding: 1rem;
+  align-items: center;
+  gap: 1rem;
+}
+.subscribe_blog {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+  height: 65vh;
+  background: linear-gradient(268.88deg, #3b85d7 0.85%, #ffffff 81.15%);
+  margin-bottom: 5%;
+}
+.subscribe {
+  height: 100%;
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  background-image: url(../../../public/Images/Home/subscribemap.png);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+.subscribe_right_container {
+  width: 50%;
+  padding: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.7rem;
+}
+.subscribe_left_container {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.subscribe_right_container p {
+  margin: 0%;
+  font-family: "ITC Avant Garde" !important;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 29px;
+  color: #142335;
+}
+.input_box {
+  width: 100%;
+}
+.input_box input[type="email"] {
+  border: none;
+  outline: none;
+  background: #ffffff;
+  border-radius: 50px;
+  width: 80%;
+  background-image: url("../../../public/Images/Home/subscribeicon.png");
+  background-position: 100% 100%;
+  height: 45px;
+  padding: 0.8rem;
+  background-repeat: no-repeat;
+}
+.input_box input::placeholder {
+  font-family: "ITC Avant Garde" !important;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21px;
+  color: #ffffff;
+}
+.paginationBttns {
+  width: 100%;
+  height: 40px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.paginationBttns a {
+  padding: 10px;
+  margin: 8px;
+  border-radius: 5px;
+  color: #ffffff;
+  background-color: #3b85d7;
+  cursor: pointer;
+}
+
+.paginationActive a {
+  color: white;
+  background-color: #898787;
+}
+
+.paginationDisabled a {
+  color: grey;
+  cursor: no-drop;
+}
+@media only screen and (max-width: 768px) {
+  .subscribe_blog {
+    height: auto;
+  }
+  .subscribe {
+    height: auto;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: unset;
+  }
+  .subscribe_left_container {
+    width: 100%;
+  }
+  .subscribe_left_container img {
+    width: 100%;
+  }
+  .subscribe_right_container {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 1.2rem;
+  }
+  .subscribe_right_container p {
+    font-size: 17px;
+    line-height: 25px;
+  }
+  .blogs_container {
+    align-items: center;
+  }
+  .blogs_card_container {
+    grid-template-columns: 95%;
+  }
+  .input_box input[type="email"] {
+    /* width: 100%; */
+    border: 1px solid #3b85d7;
+  }
+}

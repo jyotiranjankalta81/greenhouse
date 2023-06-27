@@ -1,0 +1,17 @@
+.image_list_hover:hover {
+  opacity: 0.5;
+}
+.image_list_hover {
+  cursor: pointer;
+}
+.image-list{
+  width: 100%;
+  height: auto;
+}
+
+@media only screen and (max-width:580px) {
+  .image-list{
+    display: none;
+  }
+  
+}

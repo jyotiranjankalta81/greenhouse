@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100&display=swap");
+body {
+  margin: 0;
+  /* font-family: "ITC Avant Garde" !important; */
+  /* font-family: "Outfit", sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
+  background: #faf8ed;
+}
+
+* {
+  box-sizing: border-box;
+}
+.btn {
+  border: none;
+}
+.btn--primary {
+  background: #ff7448;
+  border-radius: 5px;
+  margin-top: 1rem;
+  padding: 0.5rem 2rem;
+  font-size: 1rem;
+  color: #fff;
+  cursor: poRoboto;
+  width: max-content;
+}
+
+h1 {
+  font-family: "Roboto", sans-serif !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 42px;
+  text-transform: capitalize;
+  color: #000000;
+  margin: 0%;
+}
+h2 {
+  margin: 0%;
+  font-family: "Roboto", sans-serif !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 40px;
+  color: #142335;
+}
+h3 {
+  font-family: "Roboto", sans-serif !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 37px;
+  margin: 0%;
+  color: #142335;
+}
+h4 {
+  margin: 0%;
+  font-family: "Roboto", sans-serif !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 33px;
+  color: #142335;
+}
+h5 {
+  margin: 0%;
+  font-family: "Roboto", sans-serif !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  text-align: center;
+  line-height: 29px;
+  color: #142335;
+}
+h6 {
+  margin: 0%;
+  font-family: "Roboto", sans-serif !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+}
+p {
+  font-family: "Outfit", sans-serif !important;
+  font-size: 1rem;
+
+  font-style: normal;
+  line-height: 1.6rem;
+  /* letter-spacing: 0.9px; */
+  font-weight: 600 !important;
+  /* color: #2b2a2a; */
+}
+li {
+  font-family: "Outfit", sans-serif !important;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 900;
+}
+
+@media only screen and (max-width: 450px) {
+  h1 {
+    font-size: 27px;
+    line-height: 37px;
+  }
+  h2 {
+    font-size: 25px;
+    line-height: 35px;
+  }
+  h3 {
+    font-size: 23px;
+    line-height: 32px;
+  }
+  h4 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  h5 {
+    font-size: 17px;
+    line-height: 22px;
+  }
+  h6 {
+    font-size: 13px;
+    line-height: 19px;
+  }
+}

@@ -1,0 +1,95 @@
+.carousel-root {
+  width: 100%;
+}
+.small_cards_container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2rem;
+  height: 325px;
+}
+.small_card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #e6f1fd;
+  border-radius: 5px;
+  height: 100%;
+  padding: 2rem;
+}
+.small_card p {
+  font-family: "ITC Avant Garde" !important;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: justify;
+  line-height: 19px;
+  text-transform: capitalize;
+  color: #000000;
+  margin: 0%;
+}
+.review_header {
+  position: absolute;
+  width: 50%;
+  top: 2%;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.review_header p {
+  background: #3b85d7;
+  width: 90%;
+  border-radius: 2px;
+  padding: 0.3rem 3rem 0.3rem 2rem;
+  margin-left: -7%;
+  font-family: "ITC Avant Garde" !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  text-transform: capitalize;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+.review_header p > span {
+  font-family: "ITC Avant Garde" !important;
+  font-style: normal;
+  font-weight: 350;
+  font-size: 12px;
+  line-height: 16px;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+@media only screen and (max-width: 580px) {
+  .small_cards_container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: unset;
+    padding: 2rem 0rem;
+    gap: 1.5rem;
+  }
+  .review_header {
+    position: relative;
+    top: -50px;
+  }
+  .review_header p {
+    font-size: 10px;
+    line-height: 16px;
+  }
+  .small_card p {
+    font-size: 9px;
+    text-align: justify;
+    line-height: 15px;
+  }
+  .small_card {
+    width: 85%;
+  }
+}

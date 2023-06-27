@@ -1,0 +1,67 @@
+.customer_reviews_contetn {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  /* border: 5px solid red; */
+  /* height: 100px; */
+}
+.customer_review_main_container {
+  width: 92%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+.WhatClientSays {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* .customer_review_main_container h1 {
+  font-family: "ITC Avant Garde" !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 42px;
+  text-transform: capitalize;
+  margin: 0%;
+  color: #333333;
+} */
+/* .customer_review_main_container h3 {
+  font-family: "ITC Avant Garde" !important;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 29px;
+  margin: 0%;
+  color: #808080;
+  margin-bottom: 2.5rem;
+} */
+@media only screen and (max-width: 1028px) {
+  .customer_review_main_container {
+    width: 100%;
+  }
+  .WhatClientSays {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  .customer_reviews_contetn {
+    margin: 2rem 0rem;
+  }
+  .customer_review_main_container {
+    width: 100%;
+  }
+  .customer_review_main_container h5 {
+    text-align: center;
+  }
+  .WhatClientSays {
+    width: 100%;
+  }
+}

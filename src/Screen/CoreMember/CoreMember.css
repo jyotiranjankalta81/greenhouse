@@ -1,0 +1,221 @@
+.core_member_conatainer {
+  width: 100%;
+  /* background: #f1f1f1; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.core_member_sub_container {
+  width: 80%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+  /* border: 2px solid yellow; */
+  padding: 1rem;
+  background: #ffffff;
+  border-radius: 5px;
+}
+.sections_conre21 {
+  width: 72%;
+  height: 100%;
+}
+.sections_conre11 {
+  width: 25%;
+  height: 250px;
+}
+.sections_conre11 img {
+  width: 250px;
+  height: 100%;
+}
+.about_sub_para_desktop {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  text-align: justify;
+  font-size: 1rem;
+  line-height: 1.6rem;
+}
+.about_sub_mobile {
+  display: none;
+}
+.core_member_management {
+  width: 100%;
+  /* border: 2px solid yellowgreen; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.core_magement_heading {
+  text-align: center;
+  font-size: 1.7rem;
+  line-height: 1.9rem;
+  background-color: #ffffff;
+  width: 100%;
+  height: 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-weight: 400;
+  margin-top: 2%;
+  /* margin: 5% 0%; */
+}
+.fitsr_core_manager {
+  width: 80%;
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 7px;
+  margin-top: 5rem;
+  /* margin-bottom: 5rem; */
+}
+.manager_name,
+.manager_position {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin: 0%;
+}
+.visionandmission {
+  width: 100%;
+  /* background: #724747; */
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* margin: 2% 0%; */
+  margin-top: 3%;
+}
+.vision_container {
+  width: 80%;
+  justify-content: space-between;
+  display: flex;
+  /* margin: 3% 0%; */
+  margin-top: 5%;
+}
+.vision1,
+.vision2,
+.vision3 {
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.5rem;
+  /* color: #ffffff; */
+  /* border: 2px solid yellow; */
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.12);
+  width: 31%;
+}
+
+.vision1 > p,
+.vision2 > p,
+.vision3 > p {
+  margin: 0%;
+  text-align: center;
+}
+.vision1 > img,
+.vision2 > img,
+.vision3 > img {
+  /* margin: 0%; */
+  background: blue;
+  color: #ffffff;
+  width: 100px;
+  height: 100px;
+}
+.vision2 > ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0%;
+}
+.read_more_btn {
+  display: none;
+}
+
+@media only screen and (max-width: 580px) {
+  .core_member_conatainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .core_member_sub_container {
+    width: 90%;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+  .sections_conre11 {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 2px solid red; */
+  }
+  .sections_conre21 {
+    /* border: 2px solid yellow; */
+    width: 100%;
+  }
+  .sections_conre21 > h2 {
+    margin-top: 1%;
+    margin-bottom: 0%;
+  }
+  .sections_conre11 > img {
+    width: 100%;
+  }
+  .about_sub_para_desktop {
+    /* text-align: justify;
+     */
+    display: none;
+  }
+  .about_sub_mobile {
+    display: block;
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-align: justify;
+    font-size: 1rem;
+    line-height: 1.6rem;
+  }
+  .read_more_btn {
+    display: block;
+    border: none;
+    width: auto;
+    padding: 0.5rem 1rem;
+    /* background: #8fd3ed; */
+    background: #eec032;
+    border-radius: 10px;
+    font-family: "Roboto", sans-serif !important;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px;
+    cursor: pointer;
+    color: #ffffff;
+    /* "to left" / "to right" - affects initial color */
+    background: linear-gradient(to left, #eec032 50%, rgb(9, 2, 41) 50%) right;
+    background-size: 200%;
+    transition: 0.5s ease-out;
+  }
+  .read_more_btn:hover {
+    background-position: left;
+  }
+  .core_magement_heading {
+    /* width: 50%; */
+    height: 6rem;
+  }
+  .vision_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+  .vision1,
+  .vision2,
+  .vision3 {
+    width: 90%;
+  }
+}
