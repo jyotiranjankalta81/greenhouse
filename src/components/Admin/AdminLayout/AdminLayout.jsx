@@ -37,11 +37,7 @@ export default function AdminLayout () {
             <li className='layer'></li>
           </ul>
           <Link to='/admin-panel/manage-pages' className='header-logo-wrapper'>
-            <img
-              src='/Images/Navbar/BeklomLogo.png'
-              className='header-logo'
-              alt=''
-            />
+            <img src='/Images/Logos.png' className='header-logo' alt='' />
           </Link>
         </header>
       </div>

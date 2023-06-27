@@ -17,11 +17,7 @@ export default function AdminSideNavigation ({ closeNav }) {
   return (
     <nav className='admin-side-navigation'>
       <Link to='/admin-panel/manage-pages'>
-        <img
-          src='/Images/Navbar/BeklomLogo.png'
-          className='admin-panel-logo'
-          alt=''
-        />
+        <img src='/Images/Logos.png' className='admin-panel-logo' alt='' />
       </Link>
       <ul className='nav-list'>
         {adminNavCollection.map((item, index) => (
